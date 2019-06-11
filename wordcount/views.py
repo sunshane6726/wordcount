@@ -9,6 +9,9 @@ def home(request):
 def about(request):
     return render(request, 'about.html') # 'wordcount/about.html' 에 있는 형식에 대하여 디렉토리 설정을해주면 좋다는 것을의마한다.
 
+def method(request):
+    return render(request, 'method.html') 
+
 def count(request):
     full_text = request.GET['fulltext'] # 원문의 글자체를 말하는 것을 의미한다. ''
     word_list = full_text.split() # 약간의 메소드의 형태로 말하면된다.

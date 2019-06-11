@@ -24,4 +24,5 @@ urlpatterns = [
     path('',wordcount.views.home, name = "home"), # 이렇게 name 에다가 패스를 해주시면 간단히 설명을 해준다 
     path('about/',wordcount.views.about, name = "about"), # 경로들을 잘설정을 해줍니다.
     path('count/',wordcount.views.count, name = "count"), # 탬플릿 태그를 이용하여서 한다.
+    path('method/',wordcount.views.method, name = "method"),
 ]
