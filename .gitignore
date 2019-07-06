@@ -9,7 +9,8 @@ local_settings.py
 db.sqlite3
 media
 
-# Elastic Beanstalk Files 모든내용을 무시해라 그러나 !. 무시하지마라 .cfg.yml , .global.yml
+# Elastic Beanstalk Files
 .elasticbeanstalk/* 
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
