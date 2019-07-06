@@ -1,0 +1,15 @@
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# Elastic Beanstalk Files 모든내용을 무시해라 그러나 !. 무시하지마라 .cfg.yml , .global.yml
+.elasticbeanstalk/* 
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
